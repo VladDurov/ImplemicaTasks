@@ -8,11 +8,9 @@ public class Bonus {
         public static int x2;
 
         public static void swap1(){
-
             x1 = x1 + x2;
             x2 = x1 - x2;
             x1 = x1 - x2;
-
         }
 
         public static void swap2(){
@@ -20,7 +18,6 @@ public class Bonus {
             x2 = x2 ^ x1;
             x1 = x1 ^ x2;
         }
-
 
     }
 

@@ -7,13 +7,20 @@ public class Bonus {
         public static int x1;
         public static int x2;
 
-        public static void swap(){
+        public static void swap1(){
 
             x1 = x1 + x2;
             x2 = x1 - x2;
             x1 = x1 - x2;
 
         }
+
+        public static void swap2(){
+            x1 = x1 ^ x2;
+            x2 = x2 ^ x1;
+            x1 = x1 ^ x2;
+        }
+
 
     }
 

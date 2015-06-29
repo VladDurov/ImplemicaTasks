@@ -4,21 +4,11 @@ import org.junit.Test;
 
 public class BonusTest extends TestCase{
 
-
     @Test
-    public void testSwap1(){
+    public void testSwap(){
         Bonus.Task1.x1 = 5;
         Bonus.Task1.x2 = 10;
-        Bonus.Task1.swap1();
-        assertEquals(Bonus.Task1.x1,10);
-        assertEquals(Bonus.Task1.x2,5);
-    }
-
-    @Test
-    public void testSwap2(){
-        Bonus.Task1.x1 = 5;
-        Bonus.Task1.x2 = 10;
-        Bonus.Task1.swap2();
+        Bonus.Task1.swap();
         assertEquals(Bonus.Task1.x1,10);
         assertEquals(Bonus.Task1.x2,5);
     }
